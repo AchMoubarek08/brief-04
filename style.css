@@ -1,0 +1,657 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    text-decoration: none;
+    list-style-type: none;
+    min-width: 360px;
+}
+.logo{
+    padding-top: 30px;
+    height: 40px;
+}
+.navbar{
+    width: 90%;
+    margin: auto;
+}
+header{
+    
+    height: 50vw;
+    background-image: linear-gradient( rgb(255, 255, 255), rgb(255, 255, 255), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7), rgb(0, 0, 0) ), url(img/mason-panos-eUfZgWw0JrY-unsplash.jpg);
+    background-size: cover;
+}
+.nav li {
+	display: inline-block;
+	font-family: Open Sans;
+	padding-right: 17px;
+
+}
+.nav {
+    padding-left: 90px;
+    padding-top: 30px;
+    float: right;
+    color: black;
+}
+
+.nav li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+}
+#title p{
+    letter-spacing: 1.5px;
+    color:#C49D48;
+    font-size: 70px;
+    font-family:sans-serif;
+    text-align: center;
+    position: relative;
+    top: 246px;
+}
+}
+.gallery{
+    float: right;
+    POSITION: ABSOLUTE;
+    top: 500PX;
+    right: 0px;
+	/* width: 0%; */
+	height: 436px;
+    /* padding: 0px 20px; */
+    display: flex;
+    /* margin: 0px 20px; */
+}
+.img1{
+    background-image: url(img/img1.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 430px;
+    margin: 0px 20px;
+    transition-duration: .5s;
+    position: relative;
+    left: 332px;
+    bottom: 128px;
+}
+.img2{
+    background-image: url(img/img2.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 430px;
+    margin: 0px 20px;  
+    transition-duration: .5s;
+    position: relative;
+    left: 332px;
+    bottom: 128px;
+
+}
+.img3{
+    background-image: url(img/img3.jpg);
+    background-size: cover;
+    width: 300px;
+    height: 430px;
+    margin: 0px 20px;
+    transition-duration: .5s;
+    position: relative;
+    left: 332px;
+    bottom: 128px;
+}
+.img1:hover{
+    transform: scale(1.1);
+}
+.img2:hover{
+    transform: scale(1.1);
+}
+.img3:hover{
+    transform: scale(1.1);
+}
+.nbp{
+    font-family: SimSun-ExtB;
+    color: black;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 100;
+}
+
+.blank1{
+    height: 50px;
+}
+.blank2{
+    height: 50px;
+}
+.descri{
+    position: absolute;
+    top: 517px;
+    right: 77%;
+ }
+ #h1{
+ font-family:sans-serif;
+ color: #C49D48;
+ }
+ #h2{
+ font-family:sans-serif;
+ color: white;
+ font-weight: 800;
+ }
+ #parag1{
+ font-family: sans-serif;
+ color: white;
+ }
+ .hi {
+    position: relative;
+    top: 281px;
+ }
+ #btn1{
+    position: relative;
+    left: 606px;
+    color:white;
+    background-color:#C49D48; 
+    border-radius: 30px;
+    height: 45px;
+    width: 168px;
+    font: sans-serif;
+    font-size: 15px;
+    transition-duration: 0.3s;
+    border-style: none;
+}
+#btn1:hover{ 
+    color:#C49D48;
+    background-color:white; 
+    border-radius: 30px;
+    height: 45px;
+    width: 168px;
+    font: sans-serif;
+    font-size: 15px;
+    display: inline;
+    transition-duration: 0.3s;
+    border-style: none;
+    cursor: pointer;
+}
+.div1{
+    background-image:url(img/pic1.jpg);
+    background-size: cover ;
+    background-position: center;
+    width: 390px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.div2{
+    margin-left: 5%;
+    margin-right: 5%;
+    background-image:url(img/pic2.jpg);
+    background-size: cover ;
+    background-position: center;
+    width: 390px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.div3{
+    background-image:url(img/pic3.jpg);
+    background-size: cover ;
+    background-position: center;
+    width: 390px;
+    height: 580px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: baseline;
+}
+.divkbira{
+display: flex;
+padding-left: 4%;
+padding-right: 4%;
+
+}
+.txt{
+    color: white;
+    background-color: #C49D48;
+    padding: 7px 11px;
+    MARGIN: 20px;
+}
+#bt1{
+    color: white;
+    background-color: #C49D48;
+    padding: 12px 25px;
+    border-radius: 20px;
+    MARGIN: 20px;
+    border-style: none;
+}
+#bt1:hover{
+    color: #C49D48;
+    background-color: white;
+    cursor: pointer;
+}
+.image1{
+    background-image: url(img/pic1.jpg);
+    width: 35%;
+    height: 219px;
+    background-position: center;
+    background-size: cover;
+    
+}
+.image2{
+    background-image: url(img/pic2.jpg);
+    width: 300%;
+    height: 219px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.image3{
+    background-image: url(img/pic3.jpg);
+    width: 300%;
+    height: 219px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.tbl{
+    border:1px solid #707070;
+    display: flex;
+    width: 68%;
+    margin: auto;
+}
+.prg{
+    font-family: SimSun-ExtB;
+    font-size: 19px;
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+}
+.prg h1{
+    padding-left: 15px;
+}
+#RM{
+    color: white;
+    background-color: #C49D48;
+    padding: 18px 53px;
+    border-radius: 41px;
+    border-style: none;
+}
+#RM:hover{
+    color: #C49D48;
+    background-color: white;
+    cursor: pointer;
+}
+#VM{
+    color: white;
+    text-align: center;
+    background-color: #C49D48;
+    font-family: raleway;
+    border-radius: 20px;
+    border-style: none;
+    width: 70%;
+    height: 47px;
+    font-size: 31px;
+}
+.hhh{
+    DISPLAY: flex;
+    ALIGN-ITEMS: center;
+    JUSTIFY-CONTENT: center;
+}
+.tableau{
+    width: 70%;
+    margin: auto;
+    height: 200px;
+    display: flex;
+    border: 1px black;
+}
+.tableau-a1{
+    width: 30%;
+    background-image: url(img/pic1.jpg);
+    background-position: center;
+    background-size: cover;
+    border-style: groove;
+}
+.tableau-a2{
+    width: 30%;
+    background-image: url(img/pic2.jpg);
+    background-position: center;
+    background-size: cover;
+    border-style: groove;
+}
+.tableau-a3{
+    width: 30%;
+    background-image: url(img/pic3.jpg);
+    background-position: center;
+    background-size: cover;
+    border-style: groove;
+}
+.tableau-b{
+    width: 70%;
+    border-style: groove;
+}
+.tableau-b1{
+    font-size: 25px;
+    padding: 20px;
+    font-family: SimSun-ExtB;
+}
+.tableau-b2 a{
+    border-radius: 18px;
+    background-color: #C49D48;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-family: SimSun-ExtB;
+    color: white;
+}
+.tableau-b2{
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+/*========nav-bar============*/
+@media only screen and (max-width: 900px){
+.top {
+    align-items: center;
+    flex-direction: row-reverse;
+    box-sizing: border-box;
+}
+}
+.top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+    position: fixed;
+    z-index: 2;
+}
+@media only screen and (max-width: 900px){
+.top img {
+    margin-right: 20px;
+}
+}
+.top img {
+    width: 150px;
+    height: auto;
+    margin-left: 3vw;
+}
+@media only screen and (max-width: 900px){
+.menu {
+    display: none;
+}
+}
+.menu {
+    margin-right: 3vw;
+    text-transform: uppercase;
+}
+#accueil {
+    color: green;
+}
+.top a {
+    margin: auto 5px;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+}
+@media only screen and (max-width: 900px){
+.top button {
+    display: block !important;
+}
+}
+.top button {
+    display: none;
+    border: none;
+    background: none;
+    margin-left: 10px;
+}
+.top i {
+    font-size: 23px;
+    color: #707070;
+}
+.menumobile {
+    z-index: 3;
+    position: absolute;
+    display: none;
+    margin-top: 290px;
+    width: 100%;
+    background-color: #448069fb;
+}
+.menumobile div {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border: 0.5px solid whitesmoke;
+    padding: 22px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.menumobile a {
+    color: whitesmoke;
+    letter-spacing: 2px;
+}
+.top a {
+    margin: auto 5px;
+    text-decoration: none;
+    font-size: small;
+    font-weight: 500;
+    color: #000;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+/*========end-navbar==========*/
+/*==========footer===========*/
+.background {
+    background-image: url(img/sung-jin-cho-Yr7xRFw8tWI-unsplash.png);
+    height: 15vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.entermail2 {
+    width: 40%;
+}
+.entermail {
+    border: solid 0.5px #747474;
+    height: 35px;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: rgb(116, 116, 116);
+    margin: auto 10px;
+}
+.notif3 {
+    width: 100px;
+    font-size: x-small;
+}
+.notif {
+    border: solid 0.5px #747474;
+    height: 35px;
+    font-weight: bold;
+    box-sizing: border-box;
+    color: white;
+    background-color: #c49d48;
+    text-align: center;
+}
+.blanks {
+    height: 20px;
+}
+.Politique {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto 20px;
+}
+
+.gallery{
+    display: flex;
+}
+.Politique2 {
+    display: flex;
+    font-size: small;
+}
+.Politique2 a {
+    margin: auto 10px;
+    text-decoration: none;
+    color: black;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.line5 {
+    width: 1.3px;
+    background-color: #707070;
+}
+.icons i {
+    font-size: 20px;
+    margin: auto 7px;
+}
+footer p {
+    font-size: x-small;
+    margin: auto;
+    padding: 5px;
+    padding-left: 30px;
+    background-color: #688095;
+    color: white;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+footer {
+    background-color: whitesmoke;
+
+}
+/*=======end-footer=======*/
+
+
+
+@media only screen and (max-width: 720px){
+.Politique {
+    flex-direction: column;
+    margin: auto 10px;
+}
+}
+@media only screen and (max-width: 720px){
+.background {
+    height: 25vw;
+}
+}
+@media only screen and (max-width: 720px){
+.Politique2 {
+    flex-wrap: wrap;
+    justify-content: center;
+}
+}
+@media (max-width: 800px){
+    .img1, .img2, .img3{
+        margin: 0px 10px;
+        width: 170px;
+        height: 290px;
+    }
+          /* R E S P O N S I V E */
+@media (max-width: 1350px){
+    .img2, .img1, .img3{
+        width: 121px;
+        height: 170px;
+    }
+}
+@media (max-width: 1200px){
+    .nav{
+        display: none;
+    }
+    .logo{
+        display: none;
+    }
+    #title{
+        margin-top: 0px;
+        display: none;
+    }
+    #btn1{
+        display: none;
+    }
+    .descri{
+        right: 72%;
+    }
+    #RM{
+        MARGIN-LEFT: 177px;
+    margin-top: 5px;
+    }
+@media (max-width: 1000px){
+    .descri{
+        position: absolute;
+        top: 145px;
+    }
+    .tableau{
+        height: 400px;
+        flex-direction: column;
+    }
+    .tableau-a1{
+        width: 100%;
+        height: 250px;
+    }
+    .tableau-a2{
+        width: 100%;
+        height: 250px;
+    }
+    .tableau-a3{
+        width: 100%;
+        height: 250px;
+    }
+    .tableau-b{
+        width: 100%;
+    }
+    .divkbira{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .div1, .div2, .div3{
+        margin: 10px;
+    }
+    
+}
+@media (max-width: 600px){
+    .descri{
+        right: 52%;
+    }
+    .img1{
+        display: none;
+    }
+    .div1, .div2, .div3{
+        width: 90%;
+    }
+    .tableau{
+        height: 500px;
+        width: 90%;
+    }
+    .tableau-b1{
+        font-size: 18px;
+    }
+    .tableau-b2 a{
+        font-size: 14px;
+    }
+}
+@media (max-width: 400px){
+    .img1, .img2, .img3 {
+        margin: 0px 10px;
+        width: 150px;
+        height: 230px;
+    }
+    .gallery {
+        top: 600PX;
+    }
+    .div1, .div2, .div3{
+        height: 440px;
+    }
+    .descri{
+        right: 24%;
+    }
+}
+@media (max-width:501px){
+    .img3{
+        position: relative !important;
+        left: 207px !important;
+        bottom: 66px !important;
+    }
+    .img2{
+        position: relative !important;
+        left: 222px !important;
+        bottom: 66px !important;
+    }
+    .descri {
+        width: 46%;
+    }
+    #h1, #h2 {
+        font-size: 12px;
+    }
+}

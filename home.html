@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+    />
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+  />
+    <link rel="stylesheet" style="text/css" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    
+    <header>
+            
+            <div class="top">
+                <img src="img/logo3.jpg" alt="logo" />
+                <div class="menu">
+                  <a href="" id="accueil">Accueil</a>
+                  <a href="">ABOUT US</a>
+                  <a href="">CITY GUIDE</a>
+                  <a href="">preparations</a>
+                  <a href="">BLOGS</a>
+                  <a href="">CONTACT US</a>
+                  <a href="">Hotels</a>
+                  <a href="">Restaurants</a>
+                </div>
+                <button onclick="showMenu()">
+                  <i class="fa fa-bars" aria-hidden="true"></i>
+                </button>
+                <div class="menumobile" id="menumobile">
+                  <div><a href="">Accueil</a></div>
+                  <div><a href="">ABOUT US</a></div>
+                  <div><a href="">CITY GUIDE</a></div>
+                  <div><a href="">preparations</a></div>
+                  <div><a href="">BLOGS</a></div>
+                  <div><a href="">CONTACT US</a></div>
+                  <div><a href="">Hotels</a></div>
+                  <div><a href="">Restaurants</a></div>
+                </div>
+              </div>
+            <div id="title">
+                
+                <p>WELCOME &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; INDONESIA</p>
+            
+        </div>
+        <div class="hi">
+            <input type="Button"  id= "btn1" value="EXPLORE »">
+          </div>
+    </header>
+
+
+    <aside>
+        <div class="gallery">
+            <div class="img1"></div>
+            <div class="img2"></div>
+            <div class="img3"></div>
+        </div>
+        <div class="blank"></div>
+        <h1 class="nbp">
+            nos bons plans
+            </h1>
+        
+      <div class="blank1"></div>
+
+        <div class="descri">
+                <h1 id="h1">EXPLORE</h1>
+                <h2 id="h2">EXPERIENCES</h2>
+                <p id="parag1">
+                Lorem ipsum dolor sit amet,<br>consectetur adipiscing elitquisque<br> tempus ac eget diam et laoreet<br>phasellus.
+                </p>
+        </div>
+        <div class="divkbira">
+            <div class="div1">
+                <h1 class="txt">térasse / piscine</h1>
+                <div>
+                    <input type="Button"  id= "bt1" value="en savoir plus">
+                </div>
+            </div>
+            <div class="div2"> 
+                <h1 class="txt">chambre détente</h1>
+                <div>
+                    <input type="Button"  id= "bt1" value="en savoir plus">
+                </div>
+            </div>
+            <div class="div3"> 
+                <h1 class="txt">villa vue sur mer</h1>
+                <div>
+                    <input type="Button"  id= "bt1" value="en savoir plus">
+                </div>
+            </div>
+        </div>
+        <div class="blank2"></div>
+        <div class="blank2"></div>
+        <div class="tableau">
+            <div class="tableau-a1"></div>
+            <div class="tableau-b">
+                <div class="tableau-b1">pour vos soirées entre potes ou en couple,
+                    profiter de notre terrasse vue sur mer tout
+                    en dégustant une boisson </div>
+                <div class="tableau-b2"><a href="#">réservez maintenant</a></div>
+            </div>
+        </div>
+        <div class="blank2"></div>
+        <div class="tableau">
+            <div class="tableau-a2"></div>
+            <div class="tableau-b">
+                <div class="tableau-b1">besoin d'oublier le stress de la semaine et passer
+                   un weekend tranquille ? nos chambre detente sont faites pour vous!
+                </div>
+                <div class="tableau-b2"><a href="#">réservez maintenant</a></div>
+            </div>
+        </div>
+        <div class="blank2"></div>
+        <div class="tableau">
+            <div class="tableau-a3"></div>
+            <div class="tableau-b">
+                <div class="tableau-b1">notre villa vu sur mere pour 5 personnes est le plan idéal pour
+                  passer vos vacances entre famille. reservez avant le 3O/02/2020 et profitez d'un remise de 20%.
+                </div>
+                <div class="tableau-b2"><a href="#">réservez maintenant</a></div>
+            </div>
+        </div>
+        <div class="blank2"></div>
+           <div class="hhh">
+               <input type="button" name="réservez maintenant" id="VM" value="View more">
+           </div>
+           <div class="blank2"></div>
+    
+    </aside>
+
+
+    <footer>
+        <div class="background">
+          <input
+            type="text"
+            value="Email ou username"
+            class="entermail entermail2"
+          />
+          <input type="submit" value="CONNEXION" class="notif notif3" />
+        </div>
+        <div class="blanks"></div>
+  
+        <div class="Politique">
+          <div class="Politique2">
+            <a href="">Politique de cookies</a>
+            <div class="line5"></div>
+            <a href="">Politique de confidentialité</a>
+            <div class="line5"></div>
+            <a href="">Termes et conditions</a>
+            <div class="line5"></div>
+            <a href="">Contactez-nous</a>
+          </div>
+          <div class="icons">
+            <i class="fa fa-facebook-square"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-instagram"></i>
+          </div>
+        </div>
+        <div class="blanks"></div>
+        <p>
+          This is the official website of the Ministry of Tourism, Republic of
+          Indonesia. The contents listed on this website are intended for
+          informational.
+        </p>
+      </footer>
+      <script>
+        function showMenu() {
+          var menuDropdown = document.getElementById("menumobile");
+          if (menuDropdown.style.display === "none") {
+            menuDropdown.style.display = "block";
+          } else {
+            menuDropdown.style.display = "none";
+          }
+        }
+      </script>
+</body>
+</html> 

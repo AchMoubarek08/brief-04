@@ -1,0 +1,412 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background-color: whitesmoke;
+  }
+  
+header {
+    height: 50vw;
+    background-image: linear-gradient(
+        rgb(255, 255, 255),
+        rgb(255, 255, 255),
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0),
+        rgba(255, 255, 255, 0),
+        rgba(0, 0, 0, 0.1),
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.7),
+        rgb(0, 0, 0)
+      ),
+      url("img/mason-panos-eUfZgWw0JrY-unsplash.jpg");
+    background-size: cover;
+  }
+header h1 {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 52px;
+    color: #c49d48;
+    margin: 0;
+    padding-top: 36%;
+    padding-left: 36%;
+  }
+  .top {
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    position: fixed;
+    width: 100%;
+  }
+  .top img {
+    width: 150px;
+    height: auto;
+    /* margin: 1vw 3vw; */
+    margin-left: 3vw;
+  }
+  .menu {
+    margin-right: 3vw;
+    text-transform: uppercase;
+  }
+  .top a {
+    margin: auto 5px;
+    text-decoration: none;
+    color: black;
+    font-size: small;
+    font-weight: 500;
+  }
+  .blank {
+    height: 20px;
+  }
+     .menumobile{
+        position: absolute;
+        display: none;
+        /* margin-top: 245px; */
+        margin-top: 290px;
+        width: 100%;
+        background-color: #448069fb;
+      }
+      .menumobile div {
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        border: 0.5px solid whitesmoke;
+        padding: 22px;
+        /* padding-left: 20px; */
+        text-align: center;
+        box-sizing: border-box;
+      }
+      .menumobile a {
+        color: whitesmoke;
+        letter-spacing: 2px;
+      }
+      .top button {
+        display: none;
+      
+        border: none;
+        background: none;
+        margin-left: 10px;
+      }
+      .top i {
+        font-size: 23px;
+        color: #707070;
+      }
+      .background {
+        background-image: url("img/sung-jin-cho-Yr7xRFw8tWI-unsplash.png");
+        height: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .entermail {
+        border: solid 0.5px #747474;
+        width: 270px;
+        height: 35px;
+        padding-left: 10px;
+        box-sizing: border-box;
+        color: rgb(116, 116, 116);
+        margin: auto 10px;
+        /* padding-top: 5px; */
+      }
+      .entermail2 {
+        width: 40%;
+      }
+      .notif {
+        border: solid 0.5px #747474;
+        width: 200px;
+        height: 35px;
+        font-weight: bold;
+        font-size: small;
+        box-sizing: border-box;
+        color: white;
+        background-color: #c49d48;
+        text-align: center;
+        /* padding-top: 5px; */
+      }
+      .notif3 {
+        width: 100px;
+        font-size: x-small;
+      }
+      .Politique {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto 20px;
+      }
+      .Politique2 {
+        display: flex;
+        font-size: small;
+      }
+      .Politique2 a {
+        margin: auto 10px;
+        text-decoration: none;
+        color: black;
+      }
+      .icons i {
+        font-size: 20px;
+        margin: auto 7px;
+      }
+      .line5 {
+        width: 1.3px;
+        background-color: #707070;
+      }
+      footer p {
+        font-size: x-small;
+        margin: auto;
+        padding: 5px;
+        padding-left: 30px;
+        background-color: #688095;
+        color: white;
+      }
+      div.gallery {
+        margin: 14px;
+        border: 1px solid #ccc;
+      }
+      
+      div.gallery img {
+        width: 100%;
+        height: 300px;
+      }
+      div.gallery img:hover{
+        opacity: 0.8;
+      }
+      
+      div.desc {
+        padding: 15px;
+        text-align: center;
+      }
+      
+      * {
+        box-sizing: border-box;
+      }
+      
+      .responsive {
+        padding: 10px 6px;
+        float: left;
+        width: 33.33%;
+      }
+  .downloadapp{
+    display: flex;
+    background-image: url(img/foodBKG.png);
+    background-size: cover;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    height: 400px;
+      }
+  .section{
+    width: 1000px;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    height: 400px;
+  }
+  .mid{
+    width: 100%;
+    display: block;
+    margin: 0;
+    padding: 0;
+    margin: 0 auto;
+    height: 400px;
+  }
+  .downloadapp h2{
+    font-family: SimSun-ExtB;
+    width: 100%;
+    font-weight: 100;
+    text-align: center;
+
+  }
+  .app{
+    text-align: center;
+    align-items: center;
+  }
+  #appimg{
+    height: 80px;
+
+  }
+  .store{
+    text-align: center;
+    align-items: center;
+  }
+  #storeimg{
+    margin-top: 65px;
+    width: 44%;
+
+  }
+  
+     @media only screen and (max-width: 700px) {
+        .responsive {
+          width: 49.99999%;
+          margin: 6px 0;
+        }
+      }
+      
+      @media only screen and (max-width: 500px) {
+        .responsive {
+          width: 100%;
+        }
+      }
+      
+      .clearfix:after {
+        content: "";
+        display: table;
+        clear: both;
+      }
+      
+  @media only screen and (max-width: 900px) {
+    .menu {
+      display: none;
+    }
+    .top {
+      align-items: center;
+      flex-direction: row-reverse;
+      box-sizing: border-box;
+    }
+    .top img {
+      margin-right: 20px;
+    }
+    .top button {
+      display: block;
+    }
+    header h1 {
+      font-size: 25px;
+    }
+    .quoteBack div p {
+      font-size: 15px;
+    }
+    .img1 {
+      width: 78vw;
+      height: 30vw;
+      border-radius: 0 70px;
+    }
+    .op1 {
+      width: 78vw;
+      height: 20vw;
+      float: none;
+      border-radius: 70px 0;
+      margin-top: 4px;
+      box-sizing: border-box;
+    }
+    .opinion2 {
+      flex-direction: column;
+    }
+    .opinion2rev {
+      flex-direction: column-reverse;
+    }
+    .op2 {
+      width: 78vw;
+      height: 20vw;
+      margin-top: 4px;
+      border-radius: 0 70px;
+    }
+    .img2 {
+      width: 78vw;
+      height: 30vw;
+      border-radius: 70px 0;
+    }
+    .img3 {
+      width: 78vw;
+      height: 30vw;
+      border-radius: 0 70px;
+    }
+  
+    .op3 {
+      width: 78vw;
+      height: 20vw;
+      margin-top: 4px;
+      border-radius: 70px 0;
+    }
+    .line3 {
+      height: 5px;
+    }
+    .line1 {
+      height: 5px;
+    }
+    .line2 {
+      height: 5px;
+    }
+    .rect h3 {
+      padding: 0 6%;
+      margin-bottom: 5px;
+      font-size: small;
+      line-height: 25px;
+    }
+    .rect p {
+      padding: 0 6%;
+      margin-top: 0;
+      font-size: x-small;
+      line-height: 25px;
+    }
+    .rmblank {
+      height: 0;
+    }
+  }
+  @media only screen and (max-width: 720px) {
+    header h1 {
+      font-size: 15px;
+    }
+    .quoteBack div p {
+      font-size: 10px;
+    }
+    .blog h1 {
+      font-size: large;
+    }
+    .blog h2 {
+      font-size: medium;
+    }
+    .arrows i {
+      padding: 2px;
+    }
+    .rating {
+      justify-content: center;
+    }
+    .contact h1 {
+      font-size: medium;
+    }
+    .rate {
+      text-align: center;
+    }
+    .mail {
+      flex-direction: column;
+      margin: 20px;
+    }
+    .entermail {
+      margin-bottom: 15px;
+    }
+    .notif {
+      width: 270px;
+    }
+    .signup {
+      text-align: center;
+    }
+  
+    .background {
+      height: 25vw;
+    }
+    .entermail2 {
+      width: 60%;
+      margin-top: 15px;
+    }
+    .notif3 {
+      width: 80px;
+    }
+    .Politique {
+      flex-direction: column;
+      margin: auto 10px;
+    }
+    .Politique2 {
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .Politique2 a {
+      margin-bottom: 7px;
+    }
+    .icons i {
+      margin-top: 4px;
+    }
+  
+    footer p {
+      padding: 5px;
+      text-align: center;
+    }
+  }
